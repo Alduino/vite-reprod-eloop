@@ -6,6 +6,11 @@ export { Page }
 function Page() {
   return (
     <>
+      <style>{`
+        body {
+          background: "red"
+        }
+      `}</style>
       <h1>Welcome</h1>
       This page is:
       <ul>
